@@ -2,7 +2,7 @@ from mfr.core import RenderResult
 from mako.lookup import TemplateLookup
 
 template = TemplateLookup(
-    directories=['mfr_pdb/templates']
+    directories=['/Users/austin/code/mfr_pdb/mfr_pdb/templates']
 ).get_template('pdb.mako')
 
 

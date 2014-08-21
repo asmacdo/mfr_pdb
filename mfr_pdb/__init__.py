@@ -1,6 +1,8 @@
 from mfr.core import FileHandler, get_file_extension
 from mfr_pdb.render import render_html
 
+__version__ = '0.1.0-alpha'
+
 EXTENSIONS = [
     '.pdb',
 ]
